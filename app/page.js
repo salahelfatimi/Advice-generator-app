@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-[#1f2631] h-screen">
+      <div className="bg-[#1f2631] h-screen p-2">
         <div className="flex justify-center items-center h-screen">
           <div className="bg-[#313a49] rounded-xl p-6 text-center">
             {advice && ( // Conditionally render the advice content
