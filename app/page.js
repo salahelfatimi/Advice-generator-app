@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "@/utils/axios";
 
 export default function Home() {
-  const [advice, setAdvice] = useState(null); // Change the initial state to null
+  const [advice, setAdvice] = useState(null);
 
   const GetAdvice = async () => {
     try {
@@ -23,10 +23,10 @@ export default function Home() {
 
   return (
     <>
-      <div className="bg-[#1f2631] h-screen p-2">
+      <div className="bg-[#1f2631]  p-2">
         <div className="flex justify-center items-center h-screen">
           <div className="bg-[#313a49] rounded-xl p-6 text-center">
-            {advice && ( // Conditionally render the advice content
+            {advice && ( 
               <>
                 <div className="text-[#73bc9f] space-x-2 pt-6 font-mono">
                   <span>ADVICE</span>
